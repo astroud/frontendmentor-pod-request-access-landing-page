@@ -4,16 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Pod request access landing page</title>
 </head>
 <body>
-  Publish your podcasts everywhere.
+  <div class="mobile-background">
+    <a href="https://aaronstroud.com" title="Link to my website"><img src="./images/logo.svg" title="logo" class="logo"></a>
 
-  Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
-  Apple Podcasts, Google Podcasts, Pocket Casts and more!
+    <h1>Publish your podcasts <strong>everywhere.</strong></h1>
 
-  Request access
+    <p>Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
+    Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
+
+    <div class="podcasting-logos">
+      <img src="./images/spotify.svg" alt="placeholder logos" class="podcasting-logos__spotify">
+      <img src="./images/apple-podcast.svg" alt="placeholder logos" class="podcasting-logos__apple">
+      <img src="./images/google-podcasts.svg" alt="placeholder logos" class="podcasting-logos__google">
+      <img src="./images/pocket-casts.svg" alt="placeholder logos" class="podcasting-logos__pocket">
+    </div>
+
+    <form action="submit">
+      <input type="email" name="" id="" placeholder="Email address">
+      <button type="submit">Request Access</button>
+    </form>
+  </div>
+
 </body>
 </html>

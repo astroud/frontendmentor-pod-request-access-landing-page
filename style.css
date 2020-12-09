@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --emphasis-color: #54E6AF;
+  --input-background: #2C344B;
+  --button-text: #121725;
+  --light-text: #ffffff;
+  --body-text: #C2CBE5;
+  /* #5A668A */
+}
+
+body {
+  font-family: 'Chivo', sans-serif;
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.mobile-background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(18,23,37,1.0);
+}
+
+.mobile-background::before {
+  content: "";
+  background-image: url(./images/image-host-mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-repeat: no-repeat;
+  opacity: 0.05;
+}
+
+.mobile-background > * { position: relative; }
+
+.logo {
+  padding-top: 62px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, p, .podcasting-logos img{
+  opacity: 0.7;
+}
+
+h1 {
+  margin-top: 57px;
+  font-family: 'Chivo';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--emphasis-color);
+}
+
+h1 strong {
+  font-weight: 300;
+  letter-spacing: -0.5px;
+  color: var(--light-text);
+}
+
+p {
+  margin: 16px 24px 33px 24px;
+  font-family: 'Chivo';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--body-text);
+}
+
+.podcasting-logos {
+  width: 315px;
+  height: 17px;
+  margin: 0 30px 0 30px;
+}
+
+.podcasting-logos img:hover {
+  opacity: 1.0;
+}
+
+.podcasting-logos__spotify {
+  width: 56px;
+  margin-right: 19px;
+}
+.podcasting-logos__apple {
+  width: 45px;
+  margin-right: 21px; 
+}
+
+.podcasting-logos__google {
+  width: 73px;
+  margin-right: 11px;
+}
+
+.podcasting-logos__pocket {
+  width: 77px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input {
+  border: 0;
+  height: 46px;
+  margin: 48px 24px 16px 24px;
+  width: clamp(100px, 100%, 375px);
+  padding: 9px 32px;
+  background: var(--input-background);
+  border-radius: 28px;
+
+  font-family: Chivo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+
+  color: var(--light-text);
+}
+
+button {
+  border: 0;
+  height: 46px;
+  margin: 0 24px 0 24px;
+  width: clamp(100px, 100%, 375px);
+  background: var(--emphasis-color);
+  box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.497913);
+  border-radius: 28px;
+
+  font-family: Chivo;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: -0.05px;
+  color: var(--button-text);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: rgba(84, 230, 175, 0.8);
+}
