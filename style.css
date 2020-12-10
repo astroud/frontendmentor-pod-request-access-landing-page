@@ -159,7 +159,7 @@ button {
 }
 
 button:hover {
-  background: rgba(84, 230, 175, 0.8);
+  background: #B3FFE2;
 }
 
 
@@ -274,5 +274,39 @@ button:hover {
   .podcasting-logos__pocket {
     width: 129px;
     height: 26px;
+  }
+}
+
+
+
+@media screen and (min-width: 1000px) {
+
+  .background {
+    display: block;
+    background: url(./images/bg-pattern-dots.svg) bottom 78px right no-repeat,
+      url(./images/image-host-desktop.jpg) top 129px right no-repeat,
+      rgba(18,23,37,1.0);
+    padding-left: 165px;
+  }
+
+  .logo {
+    padding-top: 102px;
+    margin: 0 0 103px 0;
+  }
+
+  .content {
+    width: 723px;
+    height: 509px;
+  }
+
+  h1 {
+    padding-top: 88px;
+    margin-bottom: 24px;
+    font-size: 52px;
+    line-height: 62px;
+  }
+  
+  input {
+    margin-bottom: 64px;
   }
 }
