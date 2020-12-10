@@ -172,7 +172,7 @@ button:hover {
   .background {
     display: block;
     background: url(./images/image-host-tablet.jpg) top right no-repeat,
-      url(./images/bg-pattern-dots.svg) bottom left 39px no-repeat,
+      url(./images/bg-pattern-dots.svg) bottom left 30px no-repeat,
       rgba(18,23,37,1.0);
     padding-left: 39px;
   }
@@ -196,6 +196,7 @@ button:hover {
 
   .podcasting-logos img{
     opacity: 0.5;
+    /* #5A668A */
   }
 
   .content {
@@ -251,7 +252,7 @@ button:hover {
     align-items: center;
     width: 536px;
     height: 29px;
-    margin: 0;
+    margin: 22px 0;
   }
   .podcasting-logos__spotify {
     width: 96px;
@@ -283,7 +284,7 @@ button:hover {
 
   .background {
     display: block;
-    background: url(./images/bg-pattern-dots.svg) bottom 78px right no-repeat,
+    background: url(./images/bg-pattern-dots.svg) bottom 73px right no-repeat,
       url(./images/image-host-desktop.jpg) top 129px right no-repeat,
       rgba(18,23,37,1.0);
     padding-left: 165px;
@@ -304,9 +305,5 @@ button:hover {
     margin-bottom: 24px;
     font-size: 52px;
     line-height: 62px;
-  }
-  
-  input {
-    margin-bottom: 64px;
   }
 }
