@@ -284,7 +284,7 @@ button:hover {
 
   .background {
     display: block;
-    background: url(./images/bg-pattern-dots.svg) bottom 69px right no-repeat,
+    background: url(./images/bg-pattern-dots.svg) top 715px right no-repeat,
       url(./images/image-host-desktop.jpg) top 127px right no-repeat,
       rgba(18,23,37,1.0);
     padding-left: 165px;
